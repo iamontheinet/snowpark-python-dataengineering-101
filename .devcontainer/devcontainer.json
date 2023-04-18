@@ -8,5 +8,5 @@
 			"version": "latest"
 		}
 	},
-	"postCreateCommand": "conda env create -f environment.yml"
+	"postCreateCommand": "conda env create -f environment.yml && conda activate snowpark"
 }
