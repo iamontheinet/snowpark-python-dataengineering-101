@@ -8,4 +8,6 @@ dependencies:
   - notebook=6.5.2
   - scikit-learn=1.2.1
   - cachetools=4.2.2
-  - streamlit=1.21.0
+  - pip
+  - pip:
+    - streamlit==1.21.0
