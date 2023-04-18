@@ -1,0 +1,5 @@
+// https://docs.aws.amazon.com/sagemaker/latest/dg/studio-lab-use-migrate.html#studio-lab-use-migrate-step1
+
+conda create --name snowpark-de-ml -c https://repo.anaconda.com/pkgs/snowflake python=3.8
+conda activate snowpark-de-ml
+conda install -c https://repo.anaconda.com/pkgs/snowflake snowflake-snowpark-python pandas boto3 cachetools
