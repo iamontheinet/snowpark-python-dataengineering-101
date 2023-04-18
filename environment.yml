@@ -1,4 +1,4 @@
-name: snowpark-101
+name: snowpark
 channels:
   - https://repo.anaconda.com/pkgs/snowflake
 dependencies:
